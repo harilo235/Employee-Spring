@@ -1,0 +1,49 @@
+package com.hari.dao.impl;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import com.hari.dao.EmployeeDao;
+import com.hari.model.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+	
+	private DataSource dataSource;
+
+
+	public void setDataSource(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+
+	@Override
+	public void createEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Employee getEmployeeById(int employeeId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteEmployeeByid(int employeeId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateEmployeeEmailById(String newEmail, int employeeId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Employee> getAllEmployeeDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

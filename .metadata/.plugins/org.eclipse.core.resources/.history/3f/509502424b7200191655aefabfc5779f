@@ -1,0 +1,5 @@
+package com.hari.dao.impl;
+
+public class EmployeeDaoImpl {
+
+}
